@@ -1,0 +1,20 @@
+{
+  "name": "tech.awespire.unity.transformlerper",
+  "version": "1.0.0",
+  "displayName": "TransformLerper",
+  "description": "A tool for lerp GameObject Transform Stuff with build-in Timeline System.",
+  "unity": "2019.4",
+  "unityRelease": "16f1",
+  "keywords": [
+    "Timeline",
+    "Transform",
+    "CSharp Script"
+  ],
+  "author": {
+    "name": "Balala",
+    "email": "yeti0193275@gmail.com"
+  },
+  "dependencies": {
+    "com.unity.timeline": "1.2.10"
+  }
+}

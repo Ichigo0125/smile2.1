@@ -1,0 +1,287 @@
+fileFormatVersion: 2
+guid: 2615126f8b8286449b089f6fc51f9f02
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ALM_aux_BaseColor-ALM_aux_Alpha
+    second: {fileID: 2800000, guid: a08ddcceb1eadcc47854dc9fcef9f902, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ALM_aux_Metallic-ALM_aux_Roughness
+    second: {fileID: 2800000, guid: 2519f33c55760524d98d68a1b1fc50fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ALM_aux_Normal
+    second: {fileID: 2800000, guid: fe817f84ad9373a4faf53230832a8d3c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ALM_main_BaseColor-ALM_main_Alpha
+    second: {fileID: 2800000, guid: db0c56850d1c6f847baf7408d876880a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ALM_main_Metallic-ALM_main_Roughness
+    second: {fileID: 2800000, guid: 73a97b066ed472141b17003afcabcb8c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ALM_main_Normal
+    second: {fileID: 2800000, guid: 82c7ad9a93e9f414d8ec3d1a2c254e1e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DSXR_BaseColor
+    second: {fileID: 2800000, guid: 68fe237f89236854db04d387025c6d81, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DSXR_Metallic-DSXR_Roughness
+    second: {fileID: 2800000, guid: b80f316222962934397c83fb2bdbfd66, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DSXR_Normal
+    second: {fileID: 2800000, guid: acaafec479b58094ebc5a87ebcda604b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ERMXL_aux_BaseColor-ERMXL_aux_Alpha
+    second: {fileID: 2800000, guid: 95a9e957101d8624980893438dfb99f8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ERMXL_aux_Metallic-ERMXL_aux_Roughness
+    second: {fileID: 2800000, guid: 6702a7be54914a6499c5eb21a62fde81, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ERMXL_aux_Normal
+    second: {fileID: 2800000, guid: 9052e24cacf2fe843afd521a0c0364ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ERMXL_main_BaseColor-ERMXL_main_Alpha
+    second: {fileID: 2800000, guid: b183fe2cd1a3a5b4b97e3e2267bcb21f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ERMXL_main_Metallic-ERMXL_main_Roughness
+    second: {fileID: 2800000, guid: 1b225f536c4586f4b945b282d82cc89c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ERMXL_main_Normal
+    second: {fileID: 2800000, guid: b16bc66ef0ebd0d48a04db51097ad16e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: HALO_aux_BaseColor-HALO_aux_Alpha
+    second: {fileID: 2800000, guid: 8919a16a7399c4440a3a9b1543d5165f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: HALO_aux_Metallic-HALO_aux_Roughness
+    second: {fileID: 2800000, guid: 8ef3d896528174345baa05dfd0e18908, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: HALO_aux_Normal
+    second: {fileID: 2800000, guid: 4784d6482940d374180887addd470bec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: HALO_main_BaseColor-HALO_main_Alpha
+    second: {fileID: 2800000, guid: 11e1f5641001a5348a75c412faf6f9fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: HALO_main_Metallic-HALO_main_Roughness
+    second: {fileID: 2800000, guid: 5840c4e5d9001ea4ba6226060e183450, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: HALO_main_Normal
+    second: {fileID: 2800000, guid: 8df9fad036b1d9042970b600dccb1ec7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: NDS_ports_BaseColor-NDS_ports_Alpha
+    second: {fileID: 2800000, guid: 1d7d6168d73a15c4595bb16fa5120bbb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: NDS_ports_Metallic-NDS_ports_Roughness
+    second: {fileID: 2800000, guid: 5f59c81f495b0fe4da5a3dbab1443a44, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: NDS_ports_Normal
+    second: {fileID: 2800000, guid: c87e81aeedc4f434ca869e9b1e14ad97, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PPE_array_BaseColor
+    second: {fileID: 2800000, guid: 59cc862bd3197a641b561ab3d618f815, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PPE_array_Metallic-PPE_array_Roughness
+    second: {fileID: 2800000, guid: d627b2c9420e2a84eb5dc424df598754, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PPE_array_Normal
+    second: {fileID: 2800000, guid: f8fc57114324e6c43a335435488c1e26, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PPE_main_BaseColor
+    second: {fileID: 2800000, guid: 7bd13c68b5da1604fb5604e7cf9a4ea7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PPE_main_Metallic-PPE_main_Roughness
+    second: {fileID: 2800000, guid: 2766747599ac654439563dc8873345ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PPE_main_Normal
+    second: {fileID: 2800000, guid: 463fef7cc7057434a9346d297a72f17e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: iHAB_aux_BaseColor-iHAB_aux_Alpha
+    second: {fileID: 2800000, guid: 8770dfc6c7e573142bb1daca5310b5f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: iHAB_aux_Metallic-iHAB_aux_Roughness
+    second: {fileID: 2800000, guid: ece20cb32852732418ef9a49a9d850f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: iHAB_aux_Normal
+    second: {fileID: 2800000, guid: d1d08024f2521af4a9e9c93ec73a83fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: iHAB_main_BaseColor-iHAB_main_Alpha
+    second: {fileID: 2800000, guid: 4ae378064a7184641b02a265ddf5460f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: iHAB_main_Metallic-iHAB_main_Roughness
+    second: {fileID: 2800000, guid: de7e69b752d94aa45845d35ca7d39ab1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: iHAB_main_Normal
+    second: {fileID: 2800000, guid: dfb96ef59eaf88c4a97893d38521a742, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

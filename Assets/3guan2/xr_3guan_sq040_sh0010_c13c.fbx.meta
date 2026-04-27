@@ -1,0 +1,981 @@
+fileFormatVersion: 2
+guid: a692582df22369947914ff7edbe300e4
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: b1001
+    second: {fileID: 2100000, guid: 4c6a21c7e4b724649b7d614c8e3fdac5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: b1002
+    second: {fileID: 2100000, guid: 08ee66c762d228846bc301d265b9c790, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: b1004
+    second: {fileID: 2100000, guid: 107e49a99a793c44ca82a9f3504e69c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: b1011
+    second: {fileID: 2100000, guid: fc76ee8f16ef4ac4989e9b9b71d024ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: b1012
+    second: {fileID: 2100000, guid: a63ec7bf93ec32144b7756a41de5debb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: b1013
+    second: {fileID: 2100000, guid: cfd0e83b35c611d4a98741b06c56d9fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: b1014
+    second: {fileID: 2100000, guid: d2dde6849d6f13e48aedd03dff1f80e9, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 1
+      lastFrame: 307
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: xr_3guan_sq040_sh0010_c13c(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Main_ctrl1_gp
+      parentName: xr_3guan_sq040_sh0010_c13c(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Main_ctrl1
+      parentName: Main_ctrl1_gp
+      position: {x: -43.627583, y: 13.500907, z: -0.002822195}
+      rotation: {x: 0.000000027600775, y: 0.7071068, z: -0.000000027600775, w: 0.7071068}
+      scale: {x: 4, y: 4, z: 4}
+    - name: Main_ctrl2_gp
+      parentName: Main_ctrl1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Main_ctrl2
+      parentName: Main_ctrl2_gp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Main_ctrl3_gp
+      parentName: Main_ctrl2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Main_ctrl3
+      parentName: Main_ctrl3_gp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Root_ctrl_gp
+      parentName: Main_ctrl3
+      position: {x: -0, y: 0.7609665, z: -0.00000008940697}
+      rotation: {x: -0.000000003556636, y: 0.0000000745058, z: 0.9832549, w: 0.18223564}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Root_ctrl
+      parentName: Root_ctrl_gp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ske
+      parentName: Root_ctrl
+      position: {x: -0, y: -0.7609665, z: 0.00000008940697}
+      rotation: {x: 0.00000004843154, y: -0.00000006609052, z: -0.93025744, w: 0.3669074}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_W_joint1
+      parentName: ske
+      position: {x: 0.42698663, y: 0.7017837, z: 2.3765745}
+      rotation: {x: 0.65982276, y: 0.72170556, z: 0.027711026, w: 0.20738198}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_W_joint2
+      parentName: Ball_W_joint1
+      position: {x: -0.0083530005, y: -2.842171e-16, z: 2.2737367e-15}
+      rotation: {x: 0.000010131048, y: 0.0010292588, z: -0.009842571, w: 0.99995106}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_W_joint3
+      parentName: Ball_W_joint2
+      position: {x: -0.014522, y: 0, z: -3.410605e-15}
+      rotation: {x: 0.000010131048, y: 0.0010292588, z: -0.009842571, w: 0.99995106}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_W_joint4
+      parentName: Ball_W_joint3
+      position: {x: -0.014521, y: -5.684342e-16, z: 0}
+      rotation: {x: 0.000010131048, y: 0.0010292588, z: -0.009842571, w: 0.99995106}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_W_joint5
+      parentName: Ball_W_joint4
+      position: {x: -0.014522, y: 0, z: -1.1368684e-15}
+      rotation: {x: 0.000010131048, y: 0.0010292588, z: -0.009842571, w: 0.99995106}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_W_joint6
+      parentName: Ball_W_joint5
+      position: {x: -0.014521, y: 2.842171e-16, z: 2.2737367e-15}
+      rotation: {x: 0.000010160014, y: 0.001026316, z: -0.009842571, w: 0.99995106}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_G_joint1
+      parentName: ske
+      position: {x: -0.31153324, y: 0.75140405, z: 2.5289383}
+      rotation: {x: 0.11948304, y: 0.27293393, z: 0.38280323, w: 0.8744671}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_G_joint2
+      parentName: Ball_G_joint1
+      position: {x: -0.009414117, y: -7.81597e-16, z: -1.1368684e-15}
+      rotation: {x: -1.9152972e-14, y: 0.0000023545374, z: 0.33257055, w: 0.9430784}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_J_joint1
+      parentName: ske
+      position: {x: -0.16950284, y: 0.7296419, z: 2.625737}
+      rotation: {x: 0.38929757, y: 0.3954784, z: 0.58127797, w: 0.5951136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_J_joint2
+      parentName: Ball_J_joint1
+      position: {x: -0.008352584, y: -1.9326763e-14, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_J_joint3
+      parentName: Ball_J_joint2
+      position: {x: -0.014521561, y: 0.00000003316057, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_J_joint4
+      parentName: Ball_J_joint3
+      position: {x: -0.014521637, y: 0.00000003316074, z: -5.684342e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_J_joint5
+      parentName: Ball_J_joint4
+      position: {x: -0.014521484, y: 0.000000033160397, z: 1.1368684e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_J_joint6
+      parentName: Ball_J_joint5
+      position: {x: -0.014521408, y: 0.000000033160223, z: -1.7053025e-15}
+      rotation: {x: 0, y: -0, z: -0.0000011417702, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_Y_joint1
+      parentName: ske
+      position: {x: 0.4599799, y: 0.69107544, z: 2.2660978}
+      rotation: {x: 0.6454096, y: 0.7608835, z: -0.0030161466, w: 0.067035094}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_Y_joint2
+      parentName: Ball_Y_joint1
+      position: {x: -0.022592999, y: 1.4210854e-16, z: 1.1368684e-15}
+      rotation: {x: -0.006002476, y: -0.081996895, z: -0.07276117, w: 0.9939549}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_Y_joint3
+      parentName: Ball_Y_joint2
+      position: {x: -0.014794, y: 1.4210854e-16, z: 0}
+      rotation: {x: -0.0060022622, y: -0.08199982, z: -0.07276119, w: 0.99395466}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_X_joint1
+      parentName: ske
+      position: {x: 0.45149025, y: 0.7111318, z: 2.3254192}
+      rotation: {x: 0.44412127, y: 0.87847495, z: 0.13384755, w: 0.11455527}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_X_joint2
+      parentName: Ball_X_joint1
+      position: {x: -0.009542948, y: 1.2079227e-15, z: 0}
+      rotation: {x: 0.016275775, y: 0.006957981, z: 0.33072093, w: 0.94356257}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_H_joint1
+      parentName: ske
+      position: {x: -0.2717094, y: 0.73025656, z: 2.571603}
+      rotation: {x: 0.26936692, y: 0.28216872, z: 0.63600767, w: 0.66582024}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_H_joint2
+      parentName: Ball_H_joint1
+      position: {x: -0.008352584, y: -2.046363e-14, z: 3.410605e-15}
+      rotation: {x: -0.00084922725, y: 0.047806412, z: 0.017740762, w: 0.9986987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_H_joint3
+      parentName: Ball_H_joint2
+      position: {x: -0.014521561, y: 0.000000033160568, z: -3.410605e-15}
+      rotation: {x: -0.00034246195, y: 0.04781273, z: 0.007154193, w: 0.9988307}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_H_joint4
+      parentName: Ball_H_joint3
+      position: {x: -0.014521561, y: 0.00000003316057, z: 1.7053025e-15}
+      rotation: {x: -0.00084922725, y: 0.047806412, z: 0.017740762, w: 0.9986987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_H_joint5
+      parentName: Ball_H_joint4
+      position: {x: -0.036285475, y: 0.00000008285935, z: 5.684342e-16}
+      rotation: {x: -0.00084922725, y: 0.047806412, z: 0.017740762, w: 0.9986987}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_H_joint6
+      parentName: Ball_H_joint5
+      position: {x: -0.014521561, y: 0.000000014087084, z: -1.1368684e-15}
+      rotation: {x: -0.0008491727, y: 0.047806416, z: 0.017739622, w: 0.9986988}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_C_joint1
+      parentName: ske
+      position: {x: -0.41308925, y: 0.8178744, z: 2.343968}
+      rotation: {x: 0.19276811, y: 0.07598288, z: 0.7552076, w: 0.62187505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_C_joint2
+      parentName: Ball_C_joint1
+      position: {x: -0.008352584, y: 0, z: -2.2737367e-15}
+      rotation: {x: 0.000010131048, y: 0.0010292588, z: -0.009842571, w: 0.99995106}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_C_joint3
+      parentName: Ball_C_joint2
+      position: {x: -0.014521561, y: -5.684342e-16, z: 2.2737367e-15}
+      rotation: {x: 0.000010131048, y: 0.0010292588, z: -0.009842571, w: 0.99995106}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_C_joint4
+      parentName: Ball_C_joint3
+      position: {x: -0.014521484, y: -5.684342e-16, z: -1.1368684e-15}
+      rotation: {x: 0.000010131048, y: 0.0010292588, z: -0.009842571, w: 0.99995106}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_C_joint5
+      parentName: Ball_C_joint4
+      position: {x: -0.014521561, y: 1.7053025e-15, z: 1.1368684e-15}
+      rotation: {x: 0.000010131048, y: 0.0010292588, z: -0.009842571, w: 0.99995106}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_C_joint6
+      parentName: Ball_C_joint5
+      position: {x: -0.014521484, y: 0, z: 1.1368684e-15}
+      rotation: {x: 0.000010131048, y: 0.0010292588, z: -0.009842571, w: 0.99995106}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model2:xr_3guan_p_13c_rig_h_old1:char_13c_rig:Leash_L_bottom_joint4
+      parentName: ske
+      position: {x: 2.439715e-16, y: 0.7602788, z: 2.6568766}
+      rotation: {x: -0.060978238, y: 0.9969854, z: 0.0029289948, w: 0.047888644}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_M_joint1
+      parentName: ske
+      position: {x: -0.00044306548, y: 0.7606357, z: 2.663913}
+      rotation: {x: 0.23177364, y: 0.62181765, z: 0.3411465, w: 0.66576487}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_M_joint2
+      parentName: Ball_M_joint1
+      position: {x: -0.009370963, y: 2.2737367e-15, z: 1.4210854e-16}
+      rotation: {x: -0.049607396, y: 0.14885181, z: 0.3122552, w: 0.936952}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model2:xr_3guan_p_13c_rig_h_old1:char_13c_rig:Leash_L_bottom_joint3
+      parentName: ske
+      position: {x: -0.16885561, y: 0.7489436, z: 2.62449}
+      rotation: {x: 0.0000065148092, y: 0.99427915, z: 0.0000027027086, w: 0.10681271}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chain_L_joint8
+      parentName: ske
+      position: {x: -0.44346714, y: 0.72027266, z: 2.0352867}
+      rotation: {x: -0.34909952, y: 0.14058934, z: -0.4970057, w: 0.7818884}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chain_L_joint5
+      parentName: Chain_L_joint8
+      position: {x: -0.01483, y: -0.0020209576, z: 0.046432998}
+      rotation: {x: -0.15416765, y: 0.57361054, z: 0.13770995, w: 0.79261553}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chain_L_joint6
+      parentName: Chain_L_joint5
+      position: {x: -0.06486991, y: -7.105427e-17, z: 1.4210854e-16}
+      rotation: {x: 0.008786399, y: 0.000014335795, z: 0.0000128113825, w: 0.99996144}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chain_L_joint7
+      parentName: Chain_L_joint6
+      position: {x: -0.06382345, y: -2.842171e-16, z: -2.1316933e-16}
+      rotation: {x: -1.8214598e-17, y: -7.806255e-18, z: -1.517883e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leash_L_top_joint1
+      parentName: Chain_L_joint7
+      position: {x: -0.16158196, y: -0.06966741, z: -0.015384856}
+      rotation: {x: -0.34526122, y: 0.06567586, z: 0.2956144, w: 0.88830936}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chain_R_joint1
+      parentName: ske
+      position: {x: 0.42893007, y: 0.7720365, z: 1.9024252}
+      rotation: {x: 0.025297567, y: 0.74110967, z: 0.022886293, w: 0.6705168}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chain_R_joint2
+      parentName: Chain_R_joint1
+      position: {x: -0.07816047, y: -0.004281851, z: -0.000000038146972}
+      rotation: {x: 0.001833813, y: -0.024909731, z: -0.049293872, w: 0.998472}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chain_R_joint3
+      parentName: Chain_R_joint2
+      position: {x: -0.06538272, y: -0.006048744, z: 0.000000038146972}
+      rotation: {x: -0.000000052532737, y: 0.00000038834744, z: 0.110845014, w: 0.9938377}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chain_R_joint4
+      parentName: Chain_R_joint3
+      position: {x: -0.07731041, y: 0.010099297, z: -0.000000038146972}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Reash_R_bottom_joint1
+      parentName: Chain_R_joint4
+      position: {x: -0.12052074, y: -0.00084744394, z: -0.00029806636}
+      rotation: {x: 0.0005416768, y: -0.19879037, z: 0.0026628256, w: 0.9800383}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chain_L_joint1
+      parentName: ske
+      position: {x: -0.42893, y: 0.77203697, z: 1.9024299}
+      rotation: {x: 0.69118583, y: -0.14920628, z: 0.68408746, w: 0.17895234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chain_L_joint2
+      parentName: Chain_L_joint1
+      position: {x: -0.07818004, y: -0.003383547, z: -2.656244e-19}
+      rotation: {x: 0.000000029802322, y: -0.00000008940697, z: -0.07204338, w: 0.9974016}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chain_L_joint3
+      parentName: Chain_L_joint2
+      position: {x: -0.06523, y: -0.007136495, z: 1.415483e-16}
+      rotation: {x: 0.112676494, y: -0.21451393, z: -0.14169995, w: 0.95979625}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chain_L_joint4
+      parentName: Chain_L_joint3
+      position: {x: -0.077319995, y: 0.010520042, z: -1.4128267e-16}
+      rotation: {x: 9.455488e-14, y: 0.0012363052, z: 0.00079654565, w: 0.9999989}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leash_L_bottom_joint1
+      parentName: Chain_L_joint4
+      position: {x: -0.120520525, y: -1.847411e-15, z: 3.0553336e-15}
+      rotation: {x: 0.00009154628, y: 0.112226516, z: -0.00078100566, w: 0.9936823}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_L_joint1
+      parentName: ske
+      position: {x: -0.057182368, y: 0.7328307, z: 2.6532707}
+      rotation: {x: 0.46078914, y: 0.45365015, z: 0.5288275, w: 0.54974216}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_L_joint2
+      parentName: Ball_L_joint1
+      position: {x: -0.008352584, y: -4.5474734e-15, z: 0}
+      rotation: {x: 0.00032484217, y: 0.03300218, z: -0.009837214, w: 0.9994068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_L_joint3
+      parentName: Ball_L_joint2
+      position: {x: -0.014521561, y: 0.000000016580294, z: 1.4210854e-16}
+      rotation: {x: 0.00032484217, y: 0.03300218, z: -0.009837214, w: 0.9994068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_L_joint4
+      parentName: Ball_L_joint3
+      position: {x: -0.014521484, y: 0.000000016580207, z: 1.4210854e-16}
+      rotation: {x: 0.00032484217, y: 0.03300218, z: -0.009837214, w: 0.9994068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_L_joint5
+      parentName: Ball_L_joint4
+      position: {x: -0.014521561, y: 0.000000016580293, z: -7.105427e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_L_joint6
+      parentName: Ball_L_joint5
+      position: {x: -0.014521484, y: 0.000000016580207, z: -4.2632563e-16}
+      rotation: {x: 0, y: -0, z: -0.00000057088545, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model2:xr_3guan_p_13c_rig_h_old1:char_13c_rig:Leash_L_top_joint2
+      parentName: ske
+      position: {x: -0.20675305, y: 0.994339, z: 2.5840478}
+      rotation: {x: -0.1158414, y: 0.75622624, z: -0.46542078, w: 0.44506884}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model2:xr_3guan_p_13c_rig_h_old1:char_13c_rig:Leash_L_top_joint3
+      parentName: ske
+      position: {x: -1.9317881e-16, y: 1.0824704, z: 2.6313596}
+      rotation: {x: 2.1402286e-17, y: 0.8599329, z: -0.5104071, w: -8.390912e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_A_joint1
+      parentName: ske
+      position: {x: -0.45578524, y: 0.83098835, z: 2.2343595}
+      rotation: {x: -0.07877148, y: -0.015112612, z: 0.69949377, w: 0.71012336}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_A_joint2
+      parentName: Ball_A_joint1
+      position: {x: -0.022593023, y: 0, z: 2.2737367e-15}
+      rotation: {x: -0.0029363572, y: -0.061496045, z: -0.0476039, w: 0.9969672}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_A_joint3
+      parentName: Ball_A_joint2
+      position: {x: -0.014793167, y: 3.410605e-14, z: 0.000000021576492}
+      rotation: {x: -0.0029355793, y: -0.06149601, z: -0.04760395, w: 0.9969672}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flower_R_joint1
+      parentName: ske
+      position: {x: 0.3601214, y: 0.8932686, z: 2.3577356}
+      rotation: {x: -2.994714e-22, y: -0.0000041619614, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flower_R_joint2
+      parentName: Flower_R_joint1
+      position: {x: -0.028582457, y: 0.00000003814688, z: 0.000000015645877}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flower_R_joint3
+      parentName: Flower_R_joint2
+      position: {x: -0.02238159, y: -0.000000038147746, z: 0.00000013173562}
+      rotation: {x: -0.0000029429507, y: 0.0000029429507, z: 8.660959e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model2:xr_3guan_p_13c_rig_h_old1:char_13c_rig:Leash_R_top_joint2
+      parentName: ske
+      position: {x: 0.206753, y: 0.994339, z: 2.58405}
+      rotation: {x: 0.115841374, y: 0.75622624, z: -0.4654208, w: -0.4450688}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model2:xr_3guan_p_13c_rig_h_old1:char_13c_rig:Leash_L_bottom_joint2
+      parentName: ske
+      position: {x: -0.3086495, y: 0.75004363, z: 2.5272696}
+      rotation: {x: 0.000006888031, y: 0.9363043, z: 0.0000010590635, w: 0.3511899}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flower_L_joint1
+      parentName: ske
+      position: {x: -0.36012098, y: 0.893269, z: 2.35774}
+      rotation: {x: 0.7071068, y: -0.7071068, z: -0.0000041429066, w: -5.989428e-22}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flower_L_joint2
+      parentName: Flower_L_joint1
+      position: {x: 0.028583, y: 9.904255e-13, z: -0.00000016823672}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Flower_L_joint3
+      parentName: Flower_L_joint2
+      position: {x: 0.022381, y: 7.753442e-13, z: -0.00000013173236}
+      rotation: {x: 0.0000029429511, y: 1.3036607e-21, z: -1.7321922e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_U_joint1
+      parentName: ske
+      position: {x: 0.3541095, y: 0.74015874, z: 2.4827573}
+      rotation: {x: 0.6977192, y: 0.6113497, z: 0.07396734, w: 0.36601678}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_U_joint2
+      parentName: Ball_U_joint1
+      position: {x: -0.0083530005, y: 0, z: -5.684342e-16}
+      rotation: {x: 0.00041328065, y: -0.03415495, z: 0.012092222, w: 0.99934334}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_U_joint3
+      parentName: Ball_U_joint2
+      position: {x: -0.014522, y: -5.684342e-16, z: -1.1368684e-15}
+      rotation: {x: 0.00041328065, y: -0.03415495, z: 0.012092222, w: 0.99934334}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_U_joint4
+      parentName: Ball_U_joint3
+      position: {x: -0.014521, y: 1.1368684e-15, z: 5.684342e-16}
+      rotation: {x: 0.00041328065, y: -0.03415495, z: 0.012092222, w: 0.99934334}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_U_joint5
+      parentName: Ball_U_joint4
+      position: {x: -0.014522, y: 0, z: 2.2737367e-15}
+      rotation: {x: 0.00041328065, y: -0.03415495, z: 0.012092222, w: 0.99934334}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_U_joint6
+      parentName: Ball_U_joint5
+      position: {x: -0.014521, y: 0, z: 0}
+      rotation: {x: 0.00041324508, y: -0.03415789, z: 0.012092224, w: 0.9993432}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_R_joint1
+      parentName: ske
+      position: {x: 0.27066174, y: 0.77535987, z: 2.575974}
+      rotation: {x: 0.6670956, y: 0.5840383, z: 0.21887906, w: 0.4073999}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_R_joint2
+      parentName: Ball_R_joint1
+      position: {x: -0.0083530005, y: 1.1368684e-15, z: 5.684342e-16}
+      rotation: {x: 0.000072374074, y: 0.0073528076, z: -0.009842309, w: 0.99992454}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_R_joint3
+      parentName: Ball_R_joint2
+      position: {x: -0.014522, y: -2.2737367e-15, z: 0}
+      rotation: {x: 0.000072374074, y: 0.0073528076, z: -0.009842309, w: 0.99992454}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_R_joint4
+      parentName: Ball_R_joint3
+      position: {x: -0.014521, y: -1.1368684e-15, z: -1.1368684e-15}
+      rotation: {x: 0.000072374074, y: 0.0073528076, z: -0.009842309, w: 0.99992454}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_R_joint5
+      parentName: Ball_R_joint4
+      position: {x: -0.036285996, y: 0, z: 5.684342e-16}
+      rotation: {x: 0.000072374074, y: 0.0073528076, z: -0.009842309, w: 0.99992454}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_R_joint6
+      parentName: Ball_R_joint5
+      position: {x: -0.014521, y: -1.1368684e-15, z: 1.1368684e-15}
+      rotation: {x: 0.00007240305, y: 0.007349865, z: -0.009842311, w: 0.99992454}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_B_joint1
+      parentName: ske
+      position: {x: -0.43852833, y: 0.84757626, z: 2.2804322}
+      rotation: {x: -0.09355048, y: 0.25491032, z: 0.3510303, w: 0.8961288}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_B_joint2
+      parentName: Ball_B_joint1
+      position: {x: -0.00954233, y: 1.7053025e-15, z: 0}
+      rotation: {x: -0.016808875, y: -0.0071854857, z: 0.3307332, w: 0.94354725}
+      scale: {x: 4, y: 4, z: 4}
+    - name: Ball_Q_joint1
+      parentName: ske
+      position: {x: 0.2310857, y: 0.79950863, z: 2.6175826}
+      rotation: {x: 0.33642656, y: 0.80570656, z: 0.08510137, w: 0.48001233}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_Q_joint2
+      parentName: Ball_Q_joint1
+      position: {x: -0.009414046, y: 1.847411e-15, z: -1.1368684e-15}
+      rotation: {x: 0.023134533, y: -0.07852995, z: 0.26166925, w: 0.9616793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_N_joint1
+      parentName: ske
+      position: {x: 0.06533346, y: 0.7605222, z: 2.6681519}
+      rotation: {x: 0.45535615, y: 0.5312633, z: 0.5320131, w: 0.47683555}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_N_joint2
+      parentName: Ball_N_joint1
+      position: {x: -0.0083530005, y: 1.1368684e-15, z: 4.973799e-16}
+      rotation: {x: 0.00032484217, y: 0.03300218, z: -0.009837214, w: 0.9994068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_N_joint3
+      parentName: Ball_N_joint2
+      position: {x: -0.014522, y: 0, z: -5.684342e-16}
+      rotation: {x: 0.00032484217, y: 0.03300218, z: -0.009837214, w: 0.9994068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_N_joint4
+      parentName: Ball_N_joint3
+      position: {x: -0.014521, y: -1.1368684e-15, z: -4.2632563e-16}
+      rotation: {x: 0.00032484217, y: 0.03300218, z: -0.009837214, w: 0.9994068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_N_joint5
+      parentName: Ball_N_joint4
+      position: {x: -0.014522, y: -1.1368684e-15, z: -2.842171e-16}
+      rotation: {x: 0, y: 0.042049166, z: -0, w: 0.9991156}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_N_joint6
+      parentName: Ball_N_joint5
+      position: {x: -0.014521, y: 2.2737367e-15, z: -2.842171e-16}
+      rotation: {x: 0, y: 0.028916031, z: -0, w: 0.9995819}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_V_joint1
+      parentName: ske
+      position: {x: 0.3978257, y: 0.7379656, z: 2.433623}
+      rotation: {x: 0.37503693, y: 0.8529652, z: 0.07366757, w: 0.35548672}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_V_joint2
+      parentName: Ball_V_joint1
+      position: {x: -0.00954231, y: -3.5527136e-17, z: 0}
+      rotation: {x: -0.039818995, y: -0.110545866, z: 0.2642657, w: 0.95726573}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_F_joint1
+      parentName: ske
+      position: {x: -0.31007698, y: 0.73220664, z: 2.5274477}
+      rotation: {x: 0.23851068, y: 0.15400098, z: 0.6587788, w: 0.69671154}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_F_joint2
+      parentName: Ball_F_joint1
+      position: {x: -0.020331267, y: -8.526512e-15, z: -1.1368684e-15}
+      rotation: {x: 0.0028416268, y: -0.020413235, z: -0.028761119, w: 0.99937385}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_F_joint3
+      parentName: Ball_F_joint2
+      position: {x: -0.023073882, y: 0.00000002164642, z: 2.2737367e-15}
+      rotation: {x: 0.0025117896, y: -0.031866394, z: -0.0287918, w: 0.9990742}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_F_joint4
+      parentName: Ball_F_joint3
+      position: {x: -0.018793564, y: -0.0000000014425836, z: 2.2737367e-15}
+      rotation: {x: 0.002258875, y: -0.076980144, z: -0.054093108, w: 0.9955616}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_F_joint5
+      parentName: Ball_F_joint4
+      position: {x: -0.022517623, y: 0.000000002051089, z: -1.1368684e-15}
+      rotation: {x: 0.002258875, y: -0.076980144, z: -0.054093108, w: 0.9955616}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_F_joint6
+      parentName: Ball_F_joint5
+      position: {x: -0.018793564, y: -0.0000000014425842, z: -1.1368684e-15}
+      rotation: {x: -0.00095918, y: -0.017690595, z: -0.054131754, w: 0.99837667}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_T_joint1
+      parentName: ske
+      position: {x: 0.31093946, y: 0.78593594, z: 2.529474}
+      rotation: {x: 0.40986225, y: 0.8296996, z: 0.10197845, w: 0.36498216}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_T_joint2
+      parentName: Ball_T_joint1
+      position: {x: -0.009416961, y: 9.947598e-16, z: -2.2737367e-15}
+      rotation: {x: 0.002099258, y: 0.00090289436, z: 0.33285633, w: 0.9429748}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model2:xr_3guan_p_13c_rig_h_old1:char_13c_rig:Leash_R_bottom_joint2
+      parentName: ske
+      position: {x: 0.30816218, y: 0.786844, z: 2.5263965}
+      rotation: {x: -0.017094001, y: 0.2508121, z: -0.06582398, w: 0.965644}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_P_joint1
+      parentName: ske
+      position: {x: 0.18517227, y: 0.7822443, z: 2.6496453}
+      rotation: {x: 0.5684057, y: 0.6048444, z: 0.40175036, w: 0.38687846}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_P_joint2
+      parentName: Ball_P_joint1
+      position: {x: -0.0083530005, y: 0, z: -5.684342e-16}
+      rotation: {x: 0.002465396, y: 0.035651203, z: -0.0689444, w: 0.99698025}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_P_joint3
+      parentName: Ball_P_joint2
+      position: {x: -0.014522, y: 0, z: 0}
+      rotation: {x: 0.0003225827, y: 0.006468642, z: -0.04980575, w: 0.99873793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_P_joint4
+      parentName: Ball_P_joint3
+      position: {x: -0.014521, y: 0, z: 5.684342e-16}
+      rotation: {x: 0.0003225827, y: 0.006468642, z: -0.04980575, w: 0.99873793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_P_joint5
+      parentName: Ball_P_joint4
+      position: {x: -0.014522, y: -1.1368684e-15, z: 5.684342e-16}
+      rotation: {x: 0.0003225827, y: 0.006468642, z: -0.04980575, w: 0.99873793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_P_joint6
+      parentName: Ball_P_joint5
+      position: {x: -0.014521, y: 5.684342e-16, z: -5.684342e-16}
+      rotation: {x: 0.00032272926, y: 0.006465703, z: -0.04980575, w: 0.99873793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_S_joint1
+      parentName: ske
+      position: {x: 0.30741018, y: 0.7668793, z: 2.528769}
+      rotation: {x: 0.685002, y: 0.61048985, z: 0.19406563, w: 0.34700564}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_S_joint2
+      parentName: Ball_S_joint1
+      position: {x: -0.020332, y: -1.1368684e-15, z: -1.1368684e-15}
+      rotation: {x: 0, y: -0.010344775, z: -0, w: 0.99994653}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_S_joint3
+      parentName: Ball_S_joint2
+      position: {x: -0.023074, y: 2.2737367e-15, z: -1.1368684e-15}
+      rotation: {x: -0.00029897597, y: -0.010340454, z: -0.028899612, w: 0.9995288}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_S_joint4
+      parentName: Ball_S_joint3
+      position: {x: -0.018793, y: -1.1368684e-15, z: 5.684342e-16}
+      rotation: {x: -0.003010249, y: -0.055519395, z: -0.054056503, w: 0.9969887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_S_joint5
+      parentName: Ball_S_joint4
+      position: {x: -0.022518, y: 5.684342e-16, z: 2.2737367e-15}
+      rotation: {x: -0.003010249, y: -0.055519395, z: -0.054056503, w: 0.9969887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_S_joint6
+      parentName: Ball_S_joint5
+      position: {x: -0.018793, y: -3.410605e-15, z: -1.7053025e-15}
+      rotation: {x: -0.0030100897, y: -0.055522326, z: -0.054056507, w: 0.99698853}
+      scale: {x: 1, y: 1, z: 1}
+    - name: model2:xr_3guan_p_13c_rig_h_old1:char_13c_rig:Leash_R_bottom_joint3
+      parentName: ske
+      position: {x: 0.1860793, y: 0.8018435, z: 2.6483166}
+      rotation: {x: -0.007672556, y: 0.25127685, z: -0.02955076, w: 0.96743363}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_O_joint1
+      parentName: ske
+      position: {x: 0.1282985, y: 0.79372555, z: 2.6649191}
+      rotation: {x: 0.29410988, y: 0.6981611, z: 0.25840318, w: 0.5994149}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_O_joint2
+      parentName: Ball_O_joint1
+      position: {x: -0.009422534, y: 5.684342e-16, z: 0}
+      rotation: {x: -0.03977592, y: 0.12658933, z: 0.31650546, w: 0.9392643}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_D_joint1
+      parentName: ske
+      position: {x: -0.38413996, y: 0.811818, z: 2.4028833}
+      rotation: {x: 0.07267571, y: 0.14721894, z: 0.35795537, w: 0.91919136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_D_joint2
+      parentName: Ball_D_joint1
+      position: {x: -0.00954233, y: 2.842171e-16, z: -1.1368684e-15}
+      rotation: {x: 0.104004934, y: -0.08827795, z: 0.3193668, w: 0.93776053}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_K_joint1
+      parentName: ske
+      position: {x: -0.116634645, y: 0.7480985, z: 2.6419146}
+      rotation: {x: 0.2360239, y: 0.57791305, z: 0.33059686, w: 0.7078241}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_K_joint2
+      parentName: Ball_K_joint1
+      position: {x: -0.009418157, y: 2.2737367e-15, z: 5.684342e-16}
+      rotation: {x: -0.04414288, y: 0.12462565, z: 0.31550816, w: 0.9396672}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_I_joint1
+      parentName: ske
+      position: {x: -0.22405817, y: 0.74925506, z: 2.606463}
+      rotation: {x: 0.24887554, y: 0.38008115, z: 0.3104106, w: 0.8350117}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_I_joint2
+      parentName: Ball_I_joint1
+      position: {x: -0.009411748, y: 1.9895197e-15, z: 0}
+      rotation: {x: -0.0013413288, y: -0.0005767319, z: 0.33236954, w: 0.94314814}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chain_R_joint8
+      parentName: ske
+      position: {x: 0.44318187, y: 0.754381, z: 2.044565}
+      rotation: {x: 0.45406657, y: 0.3952315, z: -0.0998973, w: 0.7922349}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chain_R_joint5
+      parentName: Chain_R_joint8
+      position: {x: -0.014632601, y: 0.008111787, z: -0.043793432}
+      rotation: {x: -0.004393334, y: -0.11837142, z: -0.3716994, w: 0.92076516}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chain_R_joint6
+      parentName: Chain_R_joint5
+      position: {x: -0.06355913, y: -0.0129569555, z: -0.00054624764}
+      rotation: {x: -0.0031748516, y: 0.0018720516, z: 0.08958578, w: 0.99597234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Chain_R_joint7
+      parentName: Chain_R_joint6
+      position: {x: -0.06253959, y: 0.0127230855, z: 0.0006338915}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Reash_R_top_joint1
+      parentName: Chain_R_joint7
+      position: {x: -0.16168146, y: 0.048296656, z: 0.014164066}
+      rotation: {x: -0.451784, y: 0.06630598, z: 0.10307522, w: 0.88366866}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_E_joint1
+      parentName: ske
+      position: {x: -0.34828883, y: 0.7661187, z: 2.4667451}
+      rotation: {x: 0.32842702, y: 0.05862581, z: 0.6649431, w: 0.6682435}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_E_joint2
+      parentName: Ball_E_joint1
+      position: {x: -0.008352584, y: 1.1368684e-15, z: -1.1368684e-15}
+      rotation: {x: 0.0008817624, y: 0.02773208, z: -0.031767458, w: 0.9991101}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_E_joint3
+      parentName: Ball_E_joint2
+      position: {x: -0.014521561, y: -5.684342e-16, z: 1.1368684e-15}
+      rotation: {x: 0.0008817624, y: 0.02773208, z: -0.031767458, w: 0.9991101}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_E_joint4
+      parentName: Ball_E_joint3
+      position: {x: -0.014521484, y: -5.684342e-16, z: -1.1368684e-15}
+      rotation: {x: 0.0008817624, y: 0.02773208, z: -0.031767458, w: 0.9991101}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_E_joint5
+      parentName: Ball_E_joint4
+      position: {x: -0.014521561, y: -1.1368684e-15, z: 1.1368684e-15}
+      rotation: {x: 0.0008817624, y: 0.02773208, z: -0.031767458, w: 0.9991101}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ball_E_joint6
+      parentName: Ball_E_joint5
+      position: {x: -0.014521484, y: 1.7053025e-15, z: 0}
+      rotation: {x: 0.0008817624, y: 0.02773208, z: -0.031767458, w: 0.9991101}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Root_joint
+      parentName: ske
+      position: {x: -0, y: 0.7609665, z: -0.00000008940697}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Root_joint1
+      parentName: Root_joint
+      position: {x: -0, y: 0.011070639, z: 1.90243}
+      rotation: {x: -0.0020573738, y: -0.7071038, z: 0.0020573738, w: 0.7071038}
+      scale: {x: 1, y: 1, z: 1}
+    - name: wheel_joint1
+      parentName: ske
+      position: {x: -0, y: 0.6287565, z: 0.000003706152}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo
+      parentName: xr_3guan_sq040_sh0010_c13c(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: char_13c_mod_gp
+      parentName: geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: char_13c_car_mod_gp
+      parentName: char_13c_mod_gp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: char_13c_leash_mod
+      parentName: char_13c_car_mod_gp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: char_13c_door_mod19
+      parentName: char_13c_car_mod_gp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: char_13c_base_mod
+      parentName: char_13c_car_mod_gp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: char_13c_roof_mod_gp
+      parentName: char_13c_car_mod_gp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: char_13c_roofA_mod
+      parentName: char_13c_roof_mod_gp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: char_13c_roofC_mod
+      parentName: char_13c_roof_mod_gp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: char_13c_roofD_mod
+      parentName: char_13c_roof_mod_gp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: char_13c_roofB_mod1
+      parentName: char_13c_roof_mod_gp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: char_13c_wheel_mod_gp
+      parentName: char_13c_car_mod_gp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: char_13c_wheel_R_mod
+      parentName: char_13c_wheel_mod_gp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: char_13c_wheel_L_mod
+      parentName: char_13c_wheel_mod_gp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: char_13c_wheel_mod
+      parentName: char_13c_wheel_mod_gp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

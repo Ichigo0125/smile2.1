@@ -104,3 +104,13 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# --- Custom Ignores for Smile2.1 ---
+# 忽略 Burst 編譯產生的偵錯資料夾
+*BurstDebugInformation_DoNotShip/
+
+# 忽略所有的 .utmp (有些版本會在根目錄)
+*.utmp
+
+# 如果你有用一些特殊的 UPM 套件產生快取
+/[Uu]tmp/
