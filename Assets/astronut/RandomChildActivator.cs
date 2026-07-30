@@ -44,7 +44,7 @@ public class RandomChildActivator : MonoBehaviour
                 index++;
             }
 
-            batchSize *= 2; // 🔥 1 → 2 → 4 → 8
+            batchSize *= 1; // 🔥 1 → 2 → 4 → 8
         }
     }
 }
