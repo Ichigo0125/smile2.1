@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class RandomChildActivator : MonoBehaviour
 {
-    public float interval = 0.5f; // 每波間隔
+    [Header("每波間隔 (秒)")]
+    public float interval = 0.5f;
+
+    [Header("第一波啟用數量")]
+    public int startBatchSize = 1;
 
     private List<GameObject> children = new List<GameObject>();
 
@@ -17,20 +21,26 @@ public class RandomChildActivator : MonoBehaviour
     {
         children.Clear();
 
-        // 取得所有子物件（第一層）
+        // 收集所有第一層子物件，並先全部關閉
         for (int i = 0; i < transform.childCount; i++)
         {
             GameObject child = transform.GetChild(i).gameObject;
+            child.SetActive(false);
+            children.Add(child);
+        }
 
-            if (child != null)
-            {
-                child.SetActive(false);
-                children.Add(child);
-            }
+        // Fisher-Yates Shuffle
+        for (int i = children.Count - 1; i > 0; i--)
+        {
+            int j = Random.Range(0, i + 1);
+
+            GameObject temp = children[i];
+            children[i] = children[j];
+            children[j] = temp;
         }
 
         int index = 0;
-        int batchSize = 1;
+        int batchSize = startBatchSize;
 
         while (index < children.Count)
         {
@@ -44,7 +54,11 @@ public class RandomChildActivator : MonoBehaviour
                 index++;
             }
 
-            batchSize *= 1; // 🔥 1 → 2 → 4 → 8
+            // // 每波數量加倍：1 → 2 → 4 → 8 → ...
+            // batchSize *= 2;
+
+            // 如果想永遠一次只出現一個，把上面改成：
+            batchSize *= 1;
         }
     }
 }
