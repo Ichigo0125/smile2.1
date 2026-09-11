@@ -993,6 +993,30 @@ MonoBehaviour:
     m_Objects:
     - {fileID: -7323741433742106479}
     - {fileID: 8638262268192256719}
+--- !u!114 &-1081739195628106181
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46e36075dd1c124a8422c228e75e1fb, type: 3}
+  m_Name: Signal Track (1)
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects:
+    - {fileID: 6075890611358798259}
 --- !u!114 &-859265279604723181
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1023,6 +1047,7 @@ MonoBehaviour:
   - {fileID: -5156379622691433989}
   - {fileID: 1303803817442251275}
   - {fileID: -1633354977354613038}
+  - {fileID: -1081739195628106181}
   - {fileID: -1548787434903478579}
   - {fileID: 2914504114361975156}
   - {fileID: 1304006595842756990}
@@ -2917,6 +2942,22 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events: []
+--- !u!114 &6075890611358798259
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
+  m_Name: Signal Emitter
+  m_EditorClassIdentifier: 
+  m_Time: 2.033333333333333
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: 4541cdf5ce21a384b8cd9ed9b7a7ae76, type: 2}
 --- !u!114 &7196372380667424258
 MonoBehaviour:
   m_ObjectHideFlags: 1
