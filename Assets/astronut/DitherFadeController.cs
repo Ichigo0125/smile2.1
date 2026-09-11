@@ -63,11 +63,13 @@ public class DitherFadeController : MonoBehaviour
     /// </summary>
     public void SetFade(float value)
     {
+        float shaderFade = Mathf.Clamp(maxFade - value, 0f, maxFade);
+
         foreach (Renderer renderer in renderers)
         {
             renderer.GetPropertyBlock(propertyBlock);
 
-            propertyBlock.SetFloat(FadeID, value);
+            propertyBlock.SetFloat(FadeID, shaderFade);
 
             renderer.SetPropertyBlock(propertyBlock);
         }
