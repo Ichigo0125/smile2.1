@@ -1,2 +1,2 @@
-MVP1: 給8/5創創demo用，這一版是完整微笑2.1去掉後兩幕  
-MVP2: 太空人換模型
+給南美館用的  
+commit 1：remove unused files and assets 刪掉了場上許多大且無用的物件，包含BGM
