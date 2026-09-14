@@ -28,6 +28,30 @@ MonoBehaviour:
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: 4541cdf5ce21a384b8cd9ed9b7a7ae76, type: 2}
+--- !u!114 &-5930673419160799607
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46e36075dd1c124a8422c228e75e1fb, type: 3}
+  m_Name: Signal Track (3)
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects:
+    - {fileID: -367931172492018902}
 --- !u!114 &-5493963077035864805
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -70,6 +94,22 @@ MonoBehaviour:
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: ff5fe1cf81323a9458cc442569bf5b9f, type: 2}
+--- !u!114 &-367931172492018902
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
+  m_Name: Signal Emitter
+  m_EditorClassIdentifier: 
+  m_Time: 88.13333333333334
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: e5360bab84c49de468925ebf672223d1, type: 2}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,6 +129,7 @@ MonoBehaviour:
   - {fileID: 1920275616663044866}
   - {fileID: 1468574086672291151}
   - {fileID: 4986408079423587360}
+  - {fileID: -5930673419160799607}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
@@ -133,10 +174,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 32.71666666666667
+    m_Start: 37
     m_ClipIn: 0
     m_Asset: {fileID: 3702749823774026930}
-    m_Duration: 40
+    m_Duration: 143
     m_TimeScale: 1
     m_ParentTrack: {fileID: 1468574086672291151}
     m_EaseInDuration: 0

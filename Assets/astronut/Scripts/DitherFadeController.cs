@@ -38,6 +38,10 @@ public class DitherFadeController : MonoBehaviour
         StopAllCoroutines();
         StartCoroutine(FadeRoutine());
     }
+    public void StopFade()
+    {
+        StopAllCoroutines();
+    }
 
     private IEnumerator FadeRoutine()
     {
