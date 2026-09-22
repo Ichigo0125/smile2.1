@@ -6,7 +6,10 @@ public class Astronut_me_alwaysFloating : MonoBehaviour
     [Header("Director Reference")]
     public PlayableDirector director;
 
-    [Tooltip("在 Director 時間多少秒以內處於漂浮狀態")]
+    [Tooltip("Director 開始播放後，等待幾秒才開始漂浮")]
+    public float startDelay = 0f;
+
+    [Tooltip("開始漂浮後持續幾秒")]
     public float activeDuration = 262f;
 
     [Header("Base Motion")]
@@ -63,12 +66,13 @@ public class Astronut_me_alwaysFloating : MonoBehaviour
             return;
 
         bool active = director.state == PlayState.Playing &&
-                      director.time >= 0 &&
-                      director.time <= activeDuration;
+                      director.time >= startDelay &&
+                      director.time <= startDelay + activeDuration;
 
         if (active)
         {
-            float time = ((float)director.time + timeOffset) * motionSpeed * speedMul;
+            float elapsedTime = (float)director.time - startDelay;
+            float time = (elapsedTime + timeOffset) * motionSpeed * speedMul;
 
             // 上下浮動
             float upDown = Mathf.Sin(time * Mathf.PI * 2f * upDownFrequency);

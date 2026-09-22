@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 public class RandomChildActivator : MonoBehaviour
 {
@@ -9,6 +12,15 @@ public class RandomChildActivator : MonoBehaviour
 
     [Header("第一波啟用數量")]
     public int startBatchSize = 1;
+
+    [Header("啟用語音")]
+    [Tooltip("每個子物件啟用時，從這些語音中隨機播放一段")]
+    [SerializeField] private AudioClip[] activationVoiceClips;
+
+    [Min(0f)]
+    [SerializeField] private float voiceVolume = 1f;
+
+    private const string VoiceFolder = "Assets/Vocal/9我是誰？";
 
     private List<GameObject> children = new List<GameObject>();
 
@@ -50,7 +62,9 @@ public class RandomChildActivator : MonoBehaviour
 
             for (int i = 0; i < countThisRound; i++)
             {
-                children[index].SetActive(true);
+                GameObject child = children[index];
+                child.SetActive(true);
+                PlayActivationVoice(child.transform.position);
                 index++;
             }
 
@@ -61,4 +75,39 @@ public class RandomChildActivator : MonoBehaviour
             batchSize *= 1;
         }
     }
+
+    private void PlayActivationVoice(Vector3 position)
+    {
+        if (activationVoiceClips == null || activationVoiceClips.Length == 0)
+        {
+            return;
+        }
+
+        AudioClip clip = activationVoiceClips[Random.Range(0, activationVoiceClips.Length)];
+        if (clip != null)
+        {
+            AudioSource.PlayClipAtPoint(clip, position, voiceVolume);
+        }
+    }
+
+#if UNITY_EDITOR
+    private void OnValidate()
+    {
+        string[] guids = AssetDatabase.FindAssets("t:AudioClip", new[] { VoiceFolder });
+        List<AudioClip> clips = new List<AudioClip>(guids.Length);
+
+        foreach (string guid in guids)
+        {
+            string path = AssetDatabase.GUIDToAssetPath(guid);
+            AudioClip clip = AssetDatabase.LoadAssetAtPath<AudioClip>(path);
+            if (clip != null)
+            {
+                clips.Add(clip);
+            }
+        }
+
+        clips.Sort((first, second) => string.Compare(first.name, second.name, System.StringComparison.Ordinal));
+        activationVoiceClips = clips.ToArray();
+    }
+#endif
 }

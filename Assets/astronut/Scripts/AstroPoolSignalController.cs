@@ -17,6 +17,10 @@ public class AstroPoolSignalController : MonoBehaviour, INotificationReceiver
     [Tooltip("Dither Shader 的不可見值，DitherLit 預設為 2；0 為可見。")]
     public float fadeMax = 2f;
 
+    [Min(0.01f)]
+    [Tooltip("Fade 相對於移動的速度倍率；1.1 代表快 10%。")]
+    public float fadeSpeedMultiplier = 1.1f;
+
     [Tooltip("移動期間子物件的目標 Local Scale。")]
     public Vector3 targetScale = new Vector3(0.8f, 0.8f, 0.8f);
 
@@ -130,7 +134,8 @@ public class AstroPoolSignalController : MonoBehaviour, INotificationReceiver
             ApplyAlignment(objectsToAlign, startPositions, startRotations, startVisualCenters,
                 localVisualOffsets, targetPosition, targetRotation, progress);
 
-            ApplyFade(objectRenderers, Mathf.Lerp(0f, fadeMax, progress));
+            float fadeProgress = Mathf.Clamp01(progress * Mathf.Max(0.01f, fadeSpeedMultiplier));
+            ApplyFade(objectRenderers, Mathf.Lerp(0f, fadeMax, fadeProgress));
 
             yield return null;
         }

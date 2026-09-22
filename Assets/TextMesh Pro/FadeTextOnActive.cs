@@ -3,51 +3,60 @@ using System.Collections;
 
 public class FadeTMPOnActive : MonoBehaviour
 {
-    CanvasGroup canvasGroup;
+    [SerializeField] private CanvasGroup canvasGroup;
 
     public float fadeInTime = 1.5f;
     public float stayTime = 3f;
     public float fadeOutTime = 1.5f;
 
-    void Awake()
+    private void Awake()
     {
-        canvasGroup = GetComponent<CanvasGroup>();
+        if (canvasGroup == null)
+        {
+            canvasGroup = GetComponent<CanvasGroup>();
+        }
     }
 
-    void OnEnable()
+    private void OnEnable()
     {
-        if (canvasGroup == null) return;
+        if (canvasGroup == null)
+        {
+            Debug.LogWarning($"{nameof(FadeTMPOnActive)}: no CanvasGroup on {gameObject.name}", this);
+            return;
+        }
+
         StopAllCoroutines();
         StartCoroutine(FadeRoutine());
     }
 
-    IEnumerator FadeRoutine()
+    private void OnDisable()
     {
-        canvasGroup.alpha = 0;
+        StopAllCoroutines();
+    }
 
-        // Fade In
-        float t = 0;
+    private IEnumerator FadeRoutine()
+    {
+        canvasGroup.alpha = 0f;
+
+        float t = 0f;
         while (t < fadeInTime)
         {
             t += Time.deltaTime;
-            canvasGroup.alpha = t / fadeInTime;
+            canvasGroup.alpha = Mathf.Clamp01(t / fadeInTime);
             yield return null;
         }
 
-        canvasGroup.alpha = 1;
-
+        canvasGroup.alpha = 1f;
         yield return new WaitForSeconds(stayTime);
 
-        // Fade Out
-        t = 0;
+        t = 0f;
         while (t < fadeOutTime)
         {
             t += Time.deltaTime;
-            canvasGroup.alpha = 1 - (t / fadeOutTime);
+            canvasGroup.alpha = 1f - Mathf.Clamp01(t / fadeOutTime);
             yield return null;
         }
 
-        canvasGroup.alpha = 0;
+        canvasGroup.alpha = 0f;
     }
 }
-
